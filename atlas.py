@@ -28,7 +28,7 @@ def main(argv):
     tile_size_c = ceil(sqrt(image_count))
     tile_size = (opt.x if opt.x else tile_size_c, opt.y if opt.y else tile_size_c)
 
-    # アトラス語のテクスチャサイズ
+    # アトラス後のテクスチャサイズ
     atlas_tex_size = (tile_size[0] * tex_size[0], tile_size[1] * tex_size[1])
     atlas_tex_size = (opt.max, opt.max) if opt.max else atlas_tex_size
 
