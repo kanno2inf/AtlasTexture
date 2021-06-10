@@ -1,5 +1,5 @@
 # AtlasTexture
-テクスチャ結合するやつ
+画像をタイル画像として結合するやつ
 
 # Requirements
 * Python3.8
