@@ -8,10 +8,10 @@ from PIL import Image
 def main(argv):
     parser = ArgumentParser()
     parser.add_argument('path', nargs='+')
-    parser.add_argument('-m', '--max', type=int)
-    parser.add_argument('-x', '--x', type=int)
-    parser.add_argument('-y', '--y', type=int)
-    parser.add_argument('-s', '--sort', action='store_true')
+    parser.add_argument('-m', '--max', type=int, help='Max pixel size of atlas image.')
+    parser.add_argument('-x', '--x', type=int, help='Tile X.')
+    parser.add_argument('-y', '--y', type=int, help='Tile y.')
+    parser.add_argument('-s', '--sort', action='store_true', help='Sort by file name.')
     opt = parser.parse_args(argv)
 
     if not opt.path:

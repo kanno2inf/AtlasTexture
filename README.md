@@ -1,4 +1,11 @@
 # AtlasTexture
 テクスチャ結合するやつ
 
-Pyhon3.8
+# Requirements
+* Python3.8
+* Pillow
+
+# Usage
+```bash
+$ python3 atlas.py *.png
+```
