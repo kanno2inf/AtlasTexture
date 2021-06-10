@@ -9,3 +9,5 @@
 ```bash
 $ python3 atlas.py *.png
 ```
+
+atlas.pngに出力
